@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A63D41742C757B55003A8236 /* MemoWebDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D41732C757B55003A8236 /* MemoWebDetailViewController.swift */; };
+		A63D41762C758637003A8236 /* BaseStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D41752C758637003A8236 /* BaseStackViewController.swift */; };
+		A63D417A2C75A0E1003A8236 /* UIColor+Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D41792C75A0E1003A8236 /* UIColor+Memo.swift */; };
+		A63D417C2C75A307003A8236 /* MemoNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D417B2C75A307003A8236 /* MemoNavigationController.swift */; };
+		A63E21A82C74248A008C4EC6 /* MemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E21A72C74248A008C4EC6 /* MemoListViewController.swift */; };
+		A63E21AB2C742BEE008C4EC6 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E21AA2C742BEE008C4EC6 /* Memo.swift */; };
+		A63E21AD2C742C5F008C4EC6 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E21AC2C742C5F008C4EC6 /* MemoStore.swift */; };
+		A63E21AF2C747F3E008C4EC6 /* MemoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E21AE2C747F3E008C4EC6 /* MemoDetailViewController.swift */; };
+		A63E21B12C7481E8008C4EC6 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E21B02C7481E8008C4EC6 /* MemoCell.swift */; };
+		A63E21B32C74871E008C4EC6 /* MemoEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E21B22C74871E008C4EC6 /* MemoEditViewController.swift */; };
+		A68278ED2C74190F00CA2486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68278EC2C74190F00CA2486 /* AppDelegate.swift */; };
+		A68278EF2C74190F00CA2486 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68278EE2C74190F00CA2486 /* SceneDelegate.swift */; };
+		A68278F12C74190F00CA2486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68278F02C74190F00CA2486 /* ViewController.swift */; };
+		A68278F62C74191000CA2486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68278F52C74191000CA2486 /* Assets.xcassets */; };
+		A68278F92C74191000CA2486 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A68278F82C74191000CA2486 /* Base */; };
+		A6C6DDDA2C741E430087B1C4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C6DDD92C741E430087B1C4 /* BaseViewController.swift */; };
+		A6E81A912C782E9F00981C50 /* MemoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E81A902C782E9F00981C50 /* MemoColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A63D41732C757B55003A8236 /* MemoWebDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoWebDetailViewController.swift; sourceTree = "<group>"; };
+		A63D41752C758637003A8236 /* BaseStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseStackViewController.swift; sourceTree = "<group>"; };
+		A63D41792C75A0E1003A8236 /* UIColor+Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Memo.swift"; sourceTree = "<group>"; };
+		A63D417B2C75A307003A8236 /* MemoNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoNavigationController.swift; sourceTree = "<group>"; };
+		A63E21A72C74248A008C4EC6 /* MemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewController.swift; sourceTree = "<group>"; };
+		A63E21AA2C742BEE008C4EC6 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		A63E21AC2C742C5F008C4EC6 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
+		A63E21AE2C747F3E008C4EC6 /* MemoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewController.swift; sourceTree = "<group>"; };
+		A63E21B02C7481E8008C4EC6 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		A63E21B22C74871E008C4EC6 /* MemoEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoEditViewController.swift; sourceTree = "<group>"; };
+		A68278E92C74190F00CA2486 /* HelloMemoKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMemoKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68278EC2C74190F00CA2486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A68278EE2C74190F00CA2486 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A68278F02C74190F00CA2486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A68278F52C74191000CA2486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A68278F82C74191000CA2486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A68278FA2C74191000CA2486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C6DDD92C741E430087B1C4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A6E81A902C782E9F00981C50 /* MemoColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A68278E62C74190F00CA2486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A63D41772C759E3B003A8236 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6DDD92C741E430087B1C4 /* BaseViewController.swift */,
+				A63D41752C758637003A8236 /* BaseStackViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A63D41782C75A0CD003A8236 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A63D41792C75A0E1003A8236 /* UIColor+Memo.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A63E21A92C742BDA008C4EC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A63E21AA2C742BEE008C4EC6 /* Memo.swift */,
+				A6E81A902C782E9F00981C50 /* MemoColor.swift */,
+				A63E21AC2C742C5F008C4EC6 /* MemoStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A68278E02C74190F00CA2486 = {
+			isa = PBXGroup;
+			children = (
+				A68278EB2C74190F00CA2486 /* HelloMemoKit */,
+				A68278EA2C74190F00CA2486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A68278EA2C74190F00CA2486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A68278E92C74190F00CA2486 /* HelloMemoKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A68278EB2C74190F00CA2486 /* HelloMemoKit */ = {
+			isa = PBXGroup;
+			children = (
+				A68278EC2C74190F00CA2486 /* AppDelegate.swift */,
+				A68278EE2C74190F00CA2486 /* SceneDelegate.swift */,
+				A63D41782C75A0CD003A8236 /* Extension */,
+				A63E21A92C742BDA008C4EC6 /* Models */,
+				A6C6DDDB2C7422600087B1C4 /* ViewControllers */,
+				A68278F52C74191000CA2486 /* Assets.xcassets */,
+				A68278F72C74191000CA2486 /* LaunchScreen.storyboard */,
+				A68278FA2C74191000CA2486 /* Info.plist */,
+			);
+			path = HelloMemoKit;
+			sourceTree = "<group>";
+		};
+		A6C6DDDB2C7422600087B1C4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A68278F02C74190F00CA2486 /* ViewController.swift */,
+				A63D41772C759E3B003A8236 /* Common */,
+				A63D417B2C75A307003A8236 /* MemoNavigationController.swift */,
+				A63E21A72C74248A008C4EC6 /* MemoListViewController.swift */,
+				A63E21B02C7481E8008C4EC6 /* MemoCell.swift */,
+				A63E21AE2C747F3E008C4EC6 /* MemoDetailViewController.swift */,
+				A63D41732C757B55003A8236 /* MemoWebDetailViewController.swift */,
+				A63E21B22C74871E008C4EC6 /* MemoEditViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A68278E82C74190F00CA2486 /* HelloMemoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68278FD2C74191000CA2486 /* Build configuration list for PBXNativeTarget "HelloMemoKit" */;
+			buildPhases = (
+				A68278E52C74190F00CA2486 /* Sources */,
+				A68278E62C74190F00CA2486 /* Frameworks */,
+				A68278E72C74190F00CA2486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMemoKit;
+			productName = HelloMemoKit;
+			productReference = A68278E92C74190F00CA2486 /* HelloMemoKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A68278E12C74190F00CA2486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A68278E82C74190F00CA2486 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A68278E42C74190F00CA2486 /* Build configuration list for PBXProject "HelloMemoKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A68278E02C74190F00CA2486;
+			productRefGroup = A68278EA2C74190F00CA2486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A68278E82C74190F00CA2486 /* HelloMemoKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A68278E72C74190F00CA2486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68278F62C74191000CA2486 /* Assets.xcassets in Resources */,
+				A68278F92C74191000CA2486 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A68278E52C74190F00CA2486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68278F12C74190F00CA2486 /* ViewController.swift in Sources */,
+				A63E21B32C74871E008C4EC6 /* MemoEditViewController.swift in Sources */,
+				A6E81A912C782E9F00981C50 /* MemoColor.swift in Sources */,
+				A63D417A2C75A0E1003A8236 /* UIColor+Memo.swift in Sources */,
+				A63D417C2C75A307003A8236 /* MemoNavigationController.swift in Sources */,
+				A63E21AF2C747F3E008C4EC6 /* MemoDetailViewController.swift in Sources */,
+				A63E21A82C74248A008C4EC6 /* MemoListViewController.swift in Sources */,
+				A63D41762C758637003A8236 /* BaseStackViewController.swift in Sources */,
+				A6C6DDDA2C741E430087B1C4 /* BaseViewController.swift in Sources */,
+				A63E21AB2C742BEE008C4EC6 /* Memo.swift in Sources */,
+				A63E21AD2C742C5F008C4EC6 /* MemoStore.swift in Sources */,
+				A68278ED2C74190F00CA2486 /* AppDelegate.swift in Sources */,
+				A68278EF2C74190F00CA2486 /* SceneDelegate.swift in Sources */,
+				A63D41742C757B55003A8236 /* MemoWebDetailViewController.swift in Sources */,
+				A63E21B12C7481E8008C4EC6 /* MemoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A68278F72C74191000CA2486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68278F82C74191000CA2486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A68278FB2C74191000CA2486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A68278FC2C74191000CA2486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A68278FE2C74191000CA2486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloMemoKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.likelion.HelloMemoKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A68278FF2C74191000CA2486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloMemoKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.likelion.HelloMemoKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A68278E42C74190F00CA2486 /* Build configuration list for PBXProject "HelloMemoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68278FB2C74191000CA2486 /* Debug */,
+				A68278FC2C74191000CA2486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A68278FD2C74191000CA2486 /* Build configuration list for PBXNativeTarget "HelloMemoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68278FE2C74191000CA2486 /* Debug */,
+				A68278FF2C74191000CA2486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A68278E12C74190F00CA2486 /* Project object */;
+}
