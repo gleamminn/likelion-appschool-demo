@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q1a-E4-jll">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Mz View Controller-->
+        <scene sceneID="Ki4-zN-0CC">
+            <objects>
+                <viewController id="5gm-Zt-3xd" customClass="MzViewController" customModule="RxNamed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S1y-0H-7HE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="텍스트를 입력하세요" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UvQ-j5-W7g">
+                                <rect key="frame" x="40.666666666666657" y="412.66666666666669" width="312" height="26.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="312" id="M3M-y3-ZYK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="여기에 텍스트가 표시됩니다" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blv-hr-mTb">
+                                <rect key="frame" x="104.00000000000001" y="352" width="185.33333333333337" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NM8-KN-F5W"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UvQ-j5-W7g" firstAttribute="centerY" secondItem="S1y-0H-7HE" secondAttribute="centerY" id="5V4-Nd-SLr"/>
+                            <constraint firstItem="blv-hr-mTb" firstAttribute="centerX" secondItem="S1y-0H-7HE" secondAttribute="centerX" id="DLK-g1-bSz"/>
+                            <constraint firstItem="blv-hr-mTb" firstAttribute="centerX" secondItem="S1y-0H-7HE" secondAttribute="centerX" id="Yuf-Z7-KSS"/>
+                            <constraint firstItem="UvQ-j5-W7g" firstAttribute="centerX" secondItem="S1y-0H-7HE" secondAttribute="centerX" id="tpy-X3-OEy"/>
+                            <constraint firstItem="UvQ-j5-W7g" firstAttribute="top" secondItem="blv-hr-mTb" secondAttribute="bottom" constant="39.666666666666686" id="vOM-HF-iia"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="g5Z-IC-yhK"/>
+                    <connections>
+                        <outlet property="label" destination="blv-hr-mTb" id="klB-Kt-vCH"/>
+                        <outlet property="textField" destination="UvQ-j5-W7g" id="mg3-V1-9R9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jp8-Uu-V7t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-615" y="375"/>
+        </scene>
+        <!--Combine View Controller-->
+        <scene sceneID="Ipg-v4-HUO">
+            <objects>
+                <viewController id="qAP-Lg-8h7" userLabel="Combine View Controller" customClass="CombineViewController" customModule="RxNamed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Il-bO-Lko">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IBP-3N-2GV">
+                                <rect key="frame" x="40.666666666666657" y="412.66666666666669" width="312" height="26.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="312" id="9gu-Ml-Zpm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPV-rZ-hDK">
+                                <rect key="frame" x="175.66666666666666" y="347.66666666666669" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nag-6m-gic"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IBP-3N-2GV" firstAttribute="centerY" secondItem="7Il-bO-Lko" secondAttribute="centerY" id="6c7-k0-xLQ"/>
+                            <constraint firstItem="rPV-rZ-hDK" firstAttribute="centerX" secondItem="7Il-bO-Lko" secondAttribute="centerX" id="FT9-Ha-je3"/>
+                            <constraint firstItem="rPV-rZ-hDK" firstAttribute="centerX" secondItem="7Il-bO-Lko" secondAttribute="centerX" id="WM7-ei-nYa"/>
+                            <constraint firstItem="IBP-3N-2GV" firstAttribute="centerX" secondItem="7Il-bO-Lko" secondAttribute="centerX" id="hwK-oM-Qfs"/>
+                            <constraint firstItem="IBP-3N-2GV" firstAttribute="top" secondItem="rPV-rZ-hDK" secondAttribute="bottom" constant="44" id="oPl-Bm-BLe"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="xW1-P4-Xji"/>
+                    <connections>
+                        <outlet property="label" destination="rPV-rZ-hDK" id="l3t-jf-WfN"/>
+                        <outlet property="textField" destination="IBP-3N-2GV" id="WgF-kI-vzs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Re-Ec-MMY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1211" y="1008"/>
+        </scene>
+        <!--Old View Controller-->
+        <scene sceneID="ZJw-Z5-yny">
+            <objects>
+                <viewController id="JSg-13-iIN" customClass="OldViewController" customModule="RxNamed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="joy-yp-7II">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9BP-Qf-99d">
+                                <rect key="frame" x="40.666666666666657" y="412.66666666666669" width="312" height="26.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="312" id="0RM-db-sbQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ItU-KE-bA2">
+                                <rect key="frame" x="176" y="352" width="41.333333333333343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JBj-Ln-mMZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ItU-KE-bA2" firstAttribute="centerX" secondItem="joy-yp-7II" secondAttribute="centerX" id="LpP-Df-oA1"/>
+                            <constraint firstItem="9BP-Qf-99d" firstAttribute="centerX" secondItem="joy-yp-7II" secondAttribute="centerX" id="WVd-GU-1bc"/>
+                            <constraint firstItem="9BP-Qf-99d" firstAttribute="centerY" secondItem="joy-yp-7II" secondAttribute="centerY" id="gw3-ol-1SL"/>
+                            <constraint firstItem="9BP-Qf-99d" firstAttribute="top" secondItem="ItU-KE-bA2" secondAttribute="bottom" constant="39.666666666666686" id="uFU-ch-3so"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="cyh-Rb-iYp"/>
+                    <connections>
+                        <outlet property="label" destination="ItU-KE-bA2" id="0KW-yl-u8V"/>
+                        <outlet property="textField" destination="9BP-Qf-99d" id="wWa-19-kCY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2C9-Xb-k9U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-614.50381679389307" y="-304.22535211267609"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zDB-Qr-8Hc">
+            <objects>
+                <tabBarController id="q1a-E4-jll" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QG9-Ys-bpl">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="JSg-13-iIN" kind="relationship" relationship="viewControllers" id="7k4-gd-L4A"/>
+                        <segue destination="5gm-Zt-3xd" kind="relationship" relationship="viewControllers" id="Czy-OI-DjX"/>
+                        <segue destination="qAP-Lg-8h7" kind="relationship" relationship="viewControllers" id="B1b-PU-vZn"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q3T-xt-cTp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1520" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
